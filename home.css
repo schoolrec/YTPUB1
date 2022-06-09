@@ -1,0 +1,116 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    
+    }
+    
+    body{
+        background: red;
+        font-family: sans-serif;
+        height: 100vh;
+    }
+
+    header{
+        display: flex;
+        font-size: 40px;
+        justify-content: center;
+        padding: 40px 60px;
+        align-items: center;
+    }
+
+    header h1{
+        display: flex;
+        justify-content: center;
+        color: black;
+        border-bottom: 5px solid red;
+    }
+
+    ul li{
+        text-decoration: underline;
+        text-decoration-color: red;
+        font-size: 20px;
+        font-weight: bold;
+        color: red;
+    }
+
+    header{
+        width: 600px;
+        height: 300px;
+        background-color: white;
+        margin-top: 5px;
+        margin-left: 5px;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        display: flex;
+        flex-direction: center;
+        align-items: center;
+        border: 5px solid black;
+
+    }
+
+    section h1{
+        color: red;
+        padding: 20px;
+        margin: 20px;
+        font-size: 25px;
+
+    }
+
+    header .link-container, .format-container, .button-container{
+
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        width: 400px;
+    }
+
+    header .link-container label, .format-container label{
+
+        margin-bottom: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #444;
+    }
+
+    header .link-contaier input, .format-container select{
+        outline: red;
+        height: 30px;
+        border-radius: 5px;
+        padding: 0 10px;
+        border: 2px solid red;
+        font: 10px;
+
+
+    }
+
+    section .button-container button{
+        height: 50px;
+        border-radius: 20px;
+        font-size: 20px;
+        border: none;
+        color: #fff;
+        background-color: #ee4b4b;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+
+    @media only screen and (max-width: 550px) {
+
+        
+        section {
+            width: 350px;
+            height: 450px;
+        }
+    
+        section .link-container,
+        .format-container,
+        .button-container {
+            width: 300px;
+        }
+    }
