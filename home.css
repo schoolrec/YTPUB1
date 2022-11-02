@@ -121,3 +121,16 @@ h2{
     display: flex;
 
 }
+
+.myButton{
+    background:url(https://raw.githubusercontent.com/schoolrec/YTPUB1/main/Untitled.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:100px;
+    height:100px;
+}
+
+.myButton:active  /* use Dot here */
+{   
+    background:url(https://raw.githubusercontent.com/schoolrec/YTPUB1/main/Untitled.png) no-repeat;
+}
